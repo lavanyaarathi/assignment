@@ -1,0 +1,89 @@
+*,
+::before,
+::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+label{
+  font-size: 20px;
+}
+html,
+body{
+  height:100%;
+  width:100%;
+  
+}
+body{
+  background-image: url('pages/algoarena.webp'); 
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.container{
+  background-color:transparent;
+  padding:75px 50px;
+  width:100%;
+  border-radius:10px;
+  max-width:400px;
+  box-shadow:none;
+}
+.container  h1{
+  color: rgba(10, 3, 61, 0.892);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bolder; 
+   font-size: 50px;
+   padding-right: 20px;
+   padding-left: 75px;
+  margin-bottom:20px;
+}
+.container form{
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+}
+.container div{
+  display: flex;
+  flex-direction: column;
+}
+.container input{
+  width:100%;
+  font-size: 20px;
+  padding:10px;
+  border:none;
+  outline:none;
+ 
+}
+.container input::placeholder{
+  color:purple;
+  font-weight: 500;
+  font-size: 12px;
+  font-style: normal;
+}
+button{
+  background-color: purple;
+  border:none;
+  font-size: 20px;
+  font-weight: bolder;
+  color:white;
+  border-radius: 5px;
+  padding:10px;
+  cursor:pointer;
+  margin:10px,0;
+}
+
+.container label{
+  color: rgba(10, 3, 61, 0.892);
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span{
+  color: aliceblue;
+}
+.linkk{
+  color: purple;
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
