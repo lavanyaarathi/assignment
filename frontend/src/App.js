@@ -1,10 +1,17 @@
-import logo from './logo.svg';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
-
+import Login from './pages/login';
+import Signup from './pages/signup';
+import Home from './pages/home';
 function App() {
   return (
     <div className="App">
-      <h1>Auth app</h1>
+     <Routes>
+     <Route path='/' element={<Navigate to="/login" />} />
+      <Route path='/login' element={<Login />} />
+      <Route path='/signup' element={<Signup />} />
+     </Routes>
+       
     </div>
   );
 }
